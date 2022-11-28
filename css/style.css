@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=League+Spartan:wght@400;500;700&display=swap");
+:root {
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --ff-league: "League Spartan", sans-serif;
+
+  --clr-pink: hsl(333, 80%, 67%);
+  --clr-darkmargenta: hsl(300, 43%, 22%);
+  --clr-graymargenta: hsl(303, 10%, 53%);
+  --clr-lightmargenta: hsl(300, 24%, 96%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+* {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+}
